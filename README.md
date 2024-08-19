@@ -10,7 +10,7 @@ The reconstruction of meshes from a reduced set of points constitutes the core o
 
 ## Getting started
 
-- There is a **_python _notebook__** containing each step of the algorithms in this repository.
+- There is a **_python _notebook__** containing each step of the algorithms in this repository: https://colab.research.google.com/drive/1lm-FyJcLh4ZcomAdfGPfnJpKkfKnvTTL#scrollTo=Q1EQNd8o0u2D
 
 - Make sure to install all the necessary dependencies listed in the **requirements.txt** file.
 
