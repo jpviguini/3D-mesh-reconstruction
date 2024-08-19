@@ -1,4 +1,4 @@
-# 3D Reconstruction of Human Faces: a Laplacian Approach
+# 3D Reconstruction of Human Faces: a Laplacian Approach 
 Research project supported by FAPESP from January 2024 to December 2024.
 
 **Developer:** João Pedro Viguini Tolentino Taufner Correa
@@ -12,5 +12,24 @@ The reconstruction of meshes from a reduced set of points constitutes the core o
 ## Getting started
 
 
+## Point cloud extraction
+
+## Robust features 
+
+### Parabolic curves
+
+### Ridges
+
+## Surface reconstruction
+
+### Choosing the anchor points
+
+
+## Results
+
+
 ## Acknowledgements
+
+
+## Bibliography
 
