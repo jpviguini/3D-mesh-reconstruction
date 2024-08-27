@@ -70,19 +70,19 @@ In development...
 I would like to thank professors João do E.S. Batista Neto, Antônio Castelo and Farid Tari for their guidance and support throughout the development of this project. I also want to thank Matheus Paiva for his support.
 
 ## Bibliography
-- ANGAROLA, M. P. Curvature Estimation Using Machine Learning Algorithms. 2024. Last access: 19-08-2024. Available on: ⟨https://github.com/MatheusPaivaa/CurvatureML⟩.
+- ANGAROLA, M. P. Curvature Estimation Using Machine Learning Algorithms. 2024. Last access: 19-08-2024. Available on: ⟨https://github.com/MatheusPaivaa/CurvatureML ⟩.
 
 - BRUCE, J. W.; GIBLIN, P. J.; TARI, F. Ridges, crets an sub-parabolic lines of evolving
 surfaces. International Journal of Computer Vision, 1996.
 FAKHOURY, A. Image curves reconstruction by means of robust features. 2021.
-Last access: 18-08-2024. Available on: ⟨https://github.com/andrefakhoury/image-curve-reconstruction⟩.
+Last access: 18-08-2024. Available on: ⟨https://github.com/andrefakhoury/image-curve-reconstruction ⟩.
 
 - IZUMIYA, S. et al. Differential Geometry From A Singularity Theory Viewpoint.
 Singapura: World Scientific, 2015. 139 p.
 
 - LUGARESI, C. et al. Mediapipe: A framework for perceiving and processing reality. In:
 Third Workshop on Computer Vision for AR/VR at IEEE Computer Vision and Pattern
-Recognition (CVPR) 2019. [s.n.], 2019. Available on ⟨https://mixedreality.cs.cornell.edu/s/NewTitle May1 MediaPipe CVPR CV4ARVR Workshop 2019.pdf⟩.
+Recognition (CVPR) 2019. [s.n.], 2019. Available on ⟨https://mixedreality.cs.cornell.edu/s/NewTitle May1 MediaPipe CVPR CV4ARVR Workshop 2019.pdf ⟩.
 
 - SORKINE, O. Differential representations for mesh processing. Computer Graphics
 Forum, European Association for Computer Graphics, v. 25, n. 4, p. 789–807, 2006.
