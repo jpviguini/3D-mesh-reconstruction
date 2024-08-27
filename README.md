@@ -14,7 +14,7 @@ The reconstruction of meshes from a reduced set of points constitutes the core o
 
 - Make sure to install all the necessary dependencies listed in the **requirements.txt** file.
 
-**Disclaimer:** This GitHub page is still in development phase...
+**Disclaimer:** This GitHub page is still in **development** phase...
 
 ## Summary
 0. Introduction
@@ -24,7 +24,7 @@ The reconstruction of meshes from a reduced set of points constitutes the core o
 4. Results
 
 ## 0. Introduction
-The main goal of this repository is to provide hands-on experience to apply the surface reconstruction techniques explored in this research project. **To get more details about the project, please check the full article attached on this repository**.
+The main goal of this repository is to provide hands-on experience to apply the surface reconstruction techniques explored in this research project. **To get more details about the project, please check the full article attached on this repository (fully in portuguese)**.
 
 ## 1. Point cloud extraction
 The acquisition of the three-dimensional point cloud of the human face is essential for surface reconstruction. For this task, the MediaPipe tool was used, which employs machine learning models to detect landmarks and facial expressions from images or image sequences (videos).
