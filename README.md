@@ -14,7 +14,7 @@ The reconstruction of meshes from a reduced set of points constitutes the core o
 
 - Make sure to install all the necessary dependencies listed in the **requirements.txt** file.
 
-**Disclaimer:** This GitHub is still in development phase...
+**Disclaimer:** This GitHub page is still in development phase...
 
 ## Summary
 0. Introduction
@@ -24,7 +24,7 @@ The reconstruction of meshes from a reduced set of points constitutes the core o
 4. Results
 
 ## 0. Introduction
-The main goal of this repository is to provide hands-on experience to apply the surface reconstruction techniques explored in this research project. To get more details about the project, please check the full article.
+The main goal of this repository is to provide hands-on experience to apply the surface reconstruction techniques explored in this research project. **To get more details about the project, please check the full article attached on this repository**.
 
 ## 1. Point cloud extraction
 The acquisition of the three-dimensional point cloud of the human face is essential for surface reconstruction. For this task, the MediaPipe tool was used, which employs machine learning models to detect landmarks and facial expressions from images or image sequences (videos).
@@ -54,17 +54,37 @@ The MATLAB code that extracts these features was originally developed by Danilo 
 
 To execute these scripts, you should first provide the .obj file generated in the previous session.
 
-### Why parabolic/ridges curves?
-
 ## 3. Surface reconstruction
 After obtaining the anchor points (parabolic curves or _ridges_), the Laplace operator is applied to reconstruct the surface from these points. You can also choose how many (%) anchor points to use. The anchor points are selected using the `linspace` function from the NumPy library, which allows us to select linearly spaced points, providing a well-distributed spatial arrangement along the human face.
+
+### Why Laplace?
+The approach is based on the Laplace operator and differential representations among the vertices of a given neighborhood in a point cloud mesh. In contrast to the traditional representation by global Cartesian coordinates, the differential representation of a surface reveals information about its local shape, as well as the size and orientation of local details. In addition to providing information that results in a reconstruction with better detail preservation, it is a linear system, which makes it computationally efficient.
+
+
 
 ## 4. Results
 
 
 
 ## Acknowledgements
-
+I would like to thank professors João do E.S. Batista Neto, Antônio Castelo and Farid Tari for their guidance and support throughout the development of this project. I also want to thank Matheus Paiva for his support.
 
 ## Bibliography
+- ANGAROLA, M. P. Curvature Estimation Using Machine Learning Algorithms. 2024. Last access: 19-08-2024. Available on: ⟨https://github.com/MatheusPaivaa/CurvatureML⟩.
 
+- BRUCE, J. W.; GIBLIN, P. J.; TARI, F. Ridges, crets an sub-parabolic lines of evolving
+surfaces. International Journal of Computer Vision, 1996.
+FAKHOURY, A. Image curves reconstruction by means of robust features. 2021.
+Last access: 18-08-2024. Available on: ⟨https://github.com/andrefakhoury/image-curve-reconstruction⟩.
+
+- IZUMIYA, S. et al. Differential Geometry From A Singularity Theory Viewpoint.
+Singapura: World Scientific, 2015. 139 p.
+
+- LUGARESI, C. et al. Mediapipe: A framework for perceiving and processing reality. In:
+Third Workshop on Computer Vision for AR/VR at IEEE Computer Vision and Pattern
+Recognition (CVPR) 2019. [s.n.], 2019. Available on ⟨https://mixedreality.cs.cornell.edu/s/NewTitle May1 MediaPipe CVPR CV4ARVR Workshop 2019.pdf⟩.
+
+- SORKINE, O. Differential representations for mesh processing. Computer Graphics
+Forum, European Association for Computer Graphics, v. 25, n. 4, p. 789–807, 2006.
+YANG, S. et al. Wider face: A face detection benchmark. In: IEEE Conference on
+Computer Vision and Pattern Recognition (CVPR). [S.l.: s.n.], 2016
