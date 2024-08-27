@@ -74,8 +74,8 @@ I would like to thank professors João do E.S. Batista Neto, Antônio Castelo an
 
 - BRUCE, J. W.; GIBLIN, P. J.; TARI, F. Ridges, crets an sub-parabolic lines of evolving
 surfaces. International Journal of Computer Vision, 1996.
-FAKHOURY, A. Image curves reconstruction by means of robust features. 2021.
-Last access: 18-08-2024. Available on: ⟨https://github.com/andrefakhoury/image-curve-reconstruction ⟩.
+
+- FAKHOURY, A. Image curves reconstruction by means of robust features. 2021. Last access: 18-08-2024. Available on: ⟨https://github.com/andrefakhoury/image-curve-reconstruction ⟩.
 
 - IZUMIYA, S. et al. Differential Geometry From A Singularity Theory Viewpoint.
 Singapura: World Scientific, 2015. 139 p.
