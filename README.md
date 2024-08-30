@@ -24,7 +24,7 @@ The reconstruction of meshes from a reduced set of points constitutes the core o
 4. Results
 
 ## 0. Introduction
-The main goal of this repository is to provide hands-on experience to apply the surface reconstruction techniques explored in this research project. **To get more details about the project, please check the full article attached on this repository (fully in portuguese)**.
+The main goal of this repository is to provide hands-on experience to apply the surface reconstruction technique explored in this research project. **To get more details about the project, please check the full article attached on this repository (fully in portuguese)**.
 
 ## 1. Point cloud extraction
 The acquisition of the three-dimensional point cloud of the human face is essential for surface reconstruction. For this task, the MediaPipe tool was used, which employs machine learning models to detect landmarks and facial expressions from images or image sequences (videos).
@@ -42,7 +42,7 @@ Each face determines the connection of three vertices, calculated by applying th
 Several face files can define different topologies for the face. In this project, the same face file (faces.obj) was used to maintain consistency across all reconstructions. It is worth noting that a different topology would result in a different outcome, even for the same set of points.
 
 ## 2. Robust features 
-Two main features can be extracted from a face: parabolic curves and ridges. These are known as robust features. These features do not change when the surface is deformed.
+Two main features can be extracted from a face: parabolic curves and _ridges_. These are known as robust features. These features do not change when the surface is deformed.
 
 <img src="https://github.com/user-attachments/assets/39788517-0bf7-47b1-84cb-1d9d7e2334c1" width="300">
 
@@ -59,7 +59,6 @@ After obtaining the anchor points (parabolic curves or _ridges_), the Laplace op
 
 ### Why Laplace?
 The approach is based on the Laplace operator and differential representations among the vertices of a given neighborhood in a point cloud mesh. In contrast to the traditional representation by global Cartesian coordinates, the differential representation of a surface reveals information about its local shape, as well as the size and orientation of local details. In addition to providing information that results in a reconstruction with better detail preservation, it is a linear system, which makes it computationally efficient.
-
 
 
 ## 4. Results
