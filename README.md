@@ -1,4 +1,4 @@
-# 3D Reconstruction of Human Faces: a Laplacian Approach 
+# 3D Reconstruction of Human Faces: a Laplacian approach 
 Research project supported by FAPESP from January 2024 to December 2024.
 
 **Developer:** João Pedro Viguini Tolentino Taufner Correa
