@@ -18,10 +18,15 @@ The reconstruction of meshes from a reduced set of points constitutes the core o
 
 ## Summary
 **0. Introduction**
+
 **1. Point cloud extraction**
+
 **2. Robust features**
+
 **3. Updating the mesh**
+
 **4. Surface reconstruction**
+
 **5. Results**
 
 ## 0. Introduction
