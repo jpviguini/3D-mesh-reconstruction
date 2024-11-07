@@ -17,12 +17,12 @@ The reconstruction of meshes from a reduced set of points constitutes the core o
 **Disclaimer:** This GitHub page is still in **development** phase...
 
 ## Summary
-0. Introduction
-1. Point cloud extraction
-2. Robust features
-3. Updating the mesh
-4. Surface reconstruction
-5. Results
+**0. Introduction**
+**1. Point cloud extraction**
+**2. Robust features**
+**3. Updating the mesh**
+**4. Surface reconstruction**
+**5. Results**
 
 ## 0. Introduction
 The main goal of this repository is to provide hands-on experience to apply the surface reconstruction technique explored in this research project. **To get more details about the project, please check the full article attached on this repository (fully in portuguese)**.
