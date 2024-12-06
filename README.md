@@ -109,7 +109,15 @@ The approach is based on the Laplace operator and differential representations a
 
 
 ## 5. Results
-In development...
+
+### Using parabolic curves
+
+![reconstruct_parabolic_en](https://github.com/user-attachments/assets/48aad452-38d9-4ac8-92b4-0346502bc93d)
+
+### Using _ridges_
+
+![reconstruction_ridges_en](https://github.com/user-attachments/assets/a124fefe-0969-4c16-a0cc-4fb7370d8b59)
+
 
 
 ## Acknowledgements
