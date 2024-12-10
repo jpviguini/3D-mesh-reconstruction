@@ -20,10 +20,45 @@ Research project supported by FAPESP from January 2024 to December 2024.
 The reconstruction of meshes from a reduced set of points constitutes the core of this work. The objective is to reconstruct a human face (including the nose, mouth, eyes, and other elements) from a simplified version, such as a caricature represented by simplified curves of the face. This reduced information is referred to as robust features. These features will be extracted from the three-dimensional mesh of a human face and will be used to reconstruct the 3D surface through the Laplacian operator.
 
 ## Getting started
-
-- Make sure to install all the necessary dependencies listed in the **requirements.txt** file.
+Follow the steps below to set up the environment and get started with the project:
 
 **Disclaimer:** This GitHub page is still in **development** phase...
+
+### Prerequisites
+Ensure you have the following software installed:
+- Python 3.8 or higher
+- MATLAB or Octave (required for robust feature extraction)
+- Git
+
+### Installation
+
+1. **Clone the repository**
+   ```
+   git clone https://github.com/jpviguini/3D-mesh-reconstruction.git
+   cd 3D-mesh-reconstruction
+   ```
+2. **Install the required Python dependencies**
+   ```
+   pip install -r requirements.txt
+   ```
+
+### Usage
+
+1. **Point Cloud Extraction**  
+   Use the provided scripts or follow the instructions in the [Point Cloud Extraction](#point_cloud) section to generate `.obj` files for the initial mesh.
+
+2. **Feature Extraction**  
+   Run the MATLAB scripts:  
+   - `main24atu2.m` for parabolic curves.  
+   - `main.m` for ridges.  
+   These scripts should be executed on the `.obj` files to generate the robust features.
+
+3. **Mesh Update**  
+   Use the Python script to update the mesh by integrating the curve points into the original topology. Refer to the [Mesh Update](#mesh_update) section for further details.
+
+4. **Surface Reconstruction**  
+   Execute the reconstruction algorithm to generate the final 3D mesh. Follow the steps in the [Surface Reconstruction](#reconstruction) section.
+
 
 
 ## <div id="introduction"></div>0. Introduction
