@@ -53,10 +53,9 @@ Ensure you have the following software installed:
    - `main.m` for ridges.  
    These scripts should be executed on the `.obj` files to generate the robust features.
 
-3. **Mesh Update**  
-   Use the Python script to update the mesh by integrating the curve points into the original topology. Refer to the [Mesh Update](#mesh_update) section for further details.
+  **Note:** If you don't want to run these MATLAB scripts you can simply use the `.obj` files that already contains robust features in the folder `robust_features`.
 
-4. **Surface Reconstruction**  
+3. **Surface Reconstruction**  
    Execute the reconstruction algorithm to generate the final 3D mesh. Follow the steps in the [Surface Reconstruction](#reconstruction) section.
 
 
