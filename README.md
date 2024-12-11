@@ -45,19 +45,26 @@ Ensure you have the following software installed:
 ### Usage
 
 1. **Point Cloud Extraction**  
-   Use the provided scripts or follow the instructions in the [Point Cloud Extraction](#point_cloud) section to generate `.obj` files for the initial mesh.
+   Execute `gerarObjs.py` section to generate the `.obj` file (original mesh) from a static image.
+   
+   **Note:** There's an example (from `rosto1.png`) inside `pasta_destino` folder - in case you don't want to run this step.
 
-2. **Feature Extraction**  
+3. **Feature Extraction**  
    Run the MATLAB scripts:  
    - `main24atu2.m` for parabolic curves.  
    - `main.m` for ridges.  
    These scripts should be executed on the `.obj` files to generate the robust features.
 
-  **Note:** If you don't want to run these MATLAB scripts you can simply use the `.obj` files that already contains robust features in the folder `robust_features`.
+  **Note:** If you don't want to run these MATLAB scripts you can simply use the `.obj` files that already contains robust features in the folder `robust_features`. These curves are from the `rosto1.png` file, so if you want to add texture to it, you should use this image to capture the right colors.
 
 3. **Surface Reconstruction**  
-   Execute the reconstruction algorithm to generate the final 3D mesh. Follow the steps in the [Surface Reconstruction](#reconstruction) section.
+   Execute the reconstruction algorithm (`reconstrucao.py`) to generate the final 3D mesh. You will get a `recovered.obj` file.
 
+4. **Visualization**
+   Execute `plotar.py` with the `.obj` files (original and recovered meshes) to see the original mesh and the reconstructed mesh side-by-side.
+
+5. **Texture (Bonus)**
+   If you want to add texture to the mesh, simply execute `texture.py` with the right paths to the .obj files and the original image.
 
 
 ## <div id="introduction"></div>0. Introduction
@@ -70,7 +77,7 @@ These models are capable of operating on both single images and continuous image
 
 
 
-<img src="https://github.com/user-attachments/assets/014c37c5-b598-4f9d-91da-bd5ece7cc8e8" width="300">
+<img src="https://github.com/user-attachments/assets/f92f1ea7-8e33-4f06-adb1-211df30be488" width="300">
 
 - MediaPipe is capable of detecting 468 points.
 - This task will generate a .obj file containing all the vertices and faces.
@@ -110,9 +117,9 @@ These scenarios ensure appropriate subdivision of triangular faces. For a more r
 
 With the updated mesh, it is possible to extract the new adjacency matrix, which is fundamental for capturing the relationships between the curve vertices and the mesh vertices. This matrix is essential for surface reconstruction, as it provides the necessary information for the reconstruction algorithm, ensuring better integration of the curve vertices with the new mesh.
 
-The image below shows the updated mesh after inserting the vertices from the parabolic curve into the original mesh from _Mediapipe_.
+The image below shows the updated mesh after inserting the vertices from the parabolic curve into the original mesh from _Mediapipe_ and texturizing it with the colors from the original image.
 
-<img src="https://github.com/user-attachments/assets/8e520738-c130-4b4c-8ba7-a0cf9b34ae41" width="700">
+<img src="https://github.com/user-attachments/assets/f4fe3867-995d-4520-b8fe-707cbde1e3e3" width="400">
 
 
 
