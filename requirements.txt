@@ -1,7 +1,7 @@
 numpy==1.23.5
 matplotlib==3.7.2
 opencv-python==4.8.0.76
-mediapipe==0.10.4
+mediapipe
 Pillow==9.5.0
 trimesh==3.23.5
 mayavi==4.7.4
