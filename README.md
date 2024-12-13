@@ -22,8 +22,6 @@ The reconstruction of meshes from a reduced set of points constitutes the core o
 ## Getting started
 Follow the steps below to set up the environment and get started with the project:
 
-**Disclaimer:** This GitHub page is still in **development** phase...
-
 ### Prerequisites
 Ensure you have the following software installed:
 - Python 3.8 or higher
