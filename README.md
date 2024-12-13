@@ -19,6 +19,8 @@ Research project supported by FAPESP from January 2024 to December 2024.
 ## About this project 
 The reconstruction of meshes from a reduced set of points constitutes the core of this work. The objective is to reconstruct a human face (including the nose, mouth, eyes, and other elements) from a simplified version, such as a caricature represented by simplified curves of the face. This reduced information is referred to as robust features. These features will be extracted from the three-dimensional mesh of a human face and will be used to reconstruct the 3D surface through the Laplacian operator.
 
+**Note (full article)**: To get more details about the project, please check the full article attached on this repository (fully in portuguese) - `final_report.pdf`.
+
 ## Getting started
 Follow the steps below to set up the environment and get started with the project:
 
@@ -66,7 +68,7 @@ Ensure you have the following software installed:
 
 
 ## <div id="introduction"></div>0. Introduction
-The main goal of this repository is to provide hands-on experience to apply the surface reconstruction technique explored in this research project. **To get more details about the project, please check the full article attached on this repository (fully in portuguese)**.
+The main goal of this repository is to provide hands-on experience to apply the surface reconstruction technique explored in this research project. Full article: `final_report.pdf`
 
 ## <div id="point_cloud"></div>1. Point cloud extraction
 The acquisition of the three-dimensional point cloud of the human face is essential for surface reconstruction. For this task, the MediaPipe tool was used, which employs machine learning models to detect landmarks and facial expressions from images or image sequences (videos).
